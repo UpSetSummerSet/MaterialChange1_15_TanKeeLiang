@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 82623819}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: GamePlane
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -228,6 +228,7 @@ GameObject:
   - component: {fileID: 171028962}
   - component: {fileID: 171028961}
   - component: {fileID: 171028960}
+  - component: {fileID: 171028965}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -325,6 +326,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &171028965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171028959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 334826f2ae67457498e3b3cc5292e568, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMtrs:
+  - {fileID: 2100000, guid: 81e2cc3dd4c7a9040891ab1ca0de4eeb, type: 2}
+  - {fileID: 2100000, guid: 1dcddacdfb57e9143af6702649148768, type: 2}
+  - {fileID: 2100000, guid: 63369f78351c1c344884c240378ec39e, type: 2}
+  - {fileID: 2100000, guid: 3528197cb3d0be04d98b7af6ab4822c5, type: 2}
+  - {fileID: 2100000, guid: 555692cd706085b4ea3421f02cade355, type: 2}
+  - {fileID: 2100000, guid: 599a3555826507d40bcdb7f1f23bf473, type: 2}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
